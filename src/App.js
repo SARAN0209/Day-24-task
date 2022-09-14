@@ -4,7 +4,7 @@ import './App.css';
         const[initialValue,setInitialValues]=useState(0);
         const handleIncrement = (e) => {
             console.log(e.target.innerText)
-            if(e.target.innerText==="Add to cart"){
+            if(e.target.innerText.trim("")==="Add to cart"){
                 setInitialValues(initialValue+1);
                 e.target.innerText="Remove from cart";     
             }
@@ -72,7 +72,7 @@ import './App.css';
                         </div>
                        
                         <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                            <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#" onClick={(e)=>handleIncrement(e)}>View Options</a></div>
+                            <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#" onClick={(e)=>handleIncrement(e)}>Add to cart</a></div>
                         </div>
                     </div>
                 </div>
@@ -124,7 +124,7 @@ import './App.css';
                         </div>
                        
                         <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                            <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#"onClick={(e)=>handleIncrement(e)}>Add to cart</a></div>
+                            <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#" onClick={(e)=>handleIncrement(e)}>Add to cart</a></div>
                         </div>
                     </div>
                 </div>
@@ -151,7 +151,7 @@ import './App.css';
                         </div>
                         
                         <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                            <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#"onClick={(e)=>handleIncrement(e)}>Add to cart</a></div>
+                            <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#" onClick={(e)=>handleIncrement(e)}>Add to cart</a></div>
                         </div>
                     </div>
                 </div>
@@ -173,7 +173,7 @@ import './App.css';
                         </div>
                        
                         <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                            <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#"onClick={(e)=>handleIncrement(e)}>Add to cart</a></div>
+                            <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#" onClick={(e)=>handleIncrement(e)}>Add to cart</a></div>
                         </div>
                     </div>
                 </div>
@@ -192,7 +192,7 @@ import './App.css';
                         </div>
                        
                         <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                            <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#"onClick={(e)=>handleIncrement(e)}>View options</a></div>
+                            <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#" onClick={(e)=>handleIncrement(e)}>Add to cart</a></div>
                         </div>
                     </div>
                 </div>
@@ -222,7 +222,7 @@ import './App.css';
                         </div>
                        
                         <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                            <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#"onClick={(e)=>handleIncrement(e)}>Add to cart</a></div>
+                            <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#" onClick={(e)=>handleIncrement(e)}>Add to cart</a></div>
                         </div>
                     </div>
                 </div>
@@ -249,7 +249,7 @@ import './App.css';
                         </div>
                         
                         <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                            <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#"onClick={(e)=>handleIncrement(e)}>Add to cart</a></div>
+                            <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#" onClick={(e)=>handleIncrement(e)}>Add to cart</a></div>
                         </div>
                     </div>
                 </div>
